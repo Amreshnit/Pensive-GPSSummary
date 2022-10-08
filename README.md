@@ -38,7 +38,7 @@ Login page
 
 ![login] (https://res.cloudinary.com/mcaprojectnitjsr/image/upload/v1665258554/pensive/p1_yvmi4q.png)
 ![signup] (https://res.cloudinary.com/mcaprojectnitjsr/image/upload/v1665258555/pensive/p3_jwir64.png)
-![GPS Summary] (https://res.cloudinary.com/mcaprojectnitjsr/image/upload/v1665258554/pensive/p2_oolrs9.png)
+![GPSSummary] (https://res.cloudinary.com/mcaprojectnitjsr/image/upload/v1665258554/pensive/p2_oolrs9.png)
 Technologies used
 1. Frontend (FE): React.JS
 2. Backend (BE): Node.JS
