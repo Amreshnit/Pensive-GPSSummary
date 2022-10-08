@@ -31,17 +31,19 @@ D-1571 Asset 31-08-2022 10:35 L6
 
 Scenarios:
 Login page
-● User creation
-○ Take username and password from user and store in database.
-● User login
-○ Validate user credentials and allow login.
+1. User creation
+2. Take username and password from user and store in database.
+3. User login
+4. Validate user credentials and allow login.
 
-
+![login] (https://res.cloudinary.com/mcaprojectnitjsr/image/upload/v1665258554/pensive/p1_yvmi4q.png)
+![signup] (https://res.cloudinary.com/mcaprojectnitjsr/image/upload/v1665258555/pensive/p3_jwir64.png)
+![GPS Summary] (https://res.cloudinary.com/mcaprojectnitjsr/image/upload/v1665258554/pensive/p2_oolrs9.png)
 Technologies used
-● Frontend (FE): React.JS
-● Backend (BE): Node.JS
-● FE & BE communicate through REST APIs.
-● Database: RDBMS (MySql)
+1. Frontend (FE): React.JS
+2. Backend (BE): Node.JS
+3. FE & BE communicate through REST APIs.
+4. Database: RDBMS (MySql)
 
 
 #To Run this Application
