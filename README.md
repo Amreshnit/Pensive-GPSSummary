@@ -36,9 +36,9 @@ D-1571 Asset 31-08-2022 10:35 L6
 4. Validate user credentials and allow login.
 
 # Screenshot
-![login](https://res.cloudinary.com/mcaprojectnitjsr/image/upload/v1665258554/pensive/p1_yvmi4q.png, "login")
-![signup](https://res.cloudinary.com/mcaprojectnitjsr/image/upload/v1665258555/pensive/p3_jwir64.png, "signup")
-![GPSSummary](https://res.cloudinary.com/mcaprojectnitjsr/image/upload/v1665258554/pensive/p2_oolrs9.png. "GPSSummary")
+![login](https://res.cloudinary.com/mcaprojectnitjsr/image/upload/v1665258554/pensive/p1_yvmi4q.png "login")
+![signup](https://res.cloudinary.com/mcaprojectnitjsr/image/upload/v1665258555/pensive/p3_jwir64.png "signup")
+![GPSSummary](https://res.cloudinary.com/mcaprojectnitjsr/image/upload/v1665258554/pensive/p2_oolrs9.png "GPSSummary")
 
 # Technologies used
 1. Frontend (FE): React.JS
