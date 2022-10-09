@@ -46,9 +46,9 @@ D-1571 Asset 31-08-2022 10:35 L6 -->
 4. Database: RDBMS (MySql)
 
 # Inserting Data Of GPSSummaries
-# INSERT INTO test.gpssummaries
-# (deviceId, deviceType, `timeStamp`, location)
-# VALUES
+INSERT INTO test.gpssummaries
+(deviceId, deviceType, `timeStamp`, location)
+VALUES
 1. ('D-1567', 'Aircraft', '2022-08-31 10:05:00', 'L1'),
 2. ('D-1567', 'Aircraft', '2022-08-31 10:10:00', 'L1'),
 3. ('D-1567', 'Aircraft', '2022-08-31 10:15:00', 'L1'),
