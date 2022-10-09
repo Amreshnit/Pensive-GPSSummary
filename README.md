@@ -38,7 +38,7 @@ D-1571 Asset 31-08-2022 10:35 L6
 # Screenshot
 ![login](https://res.cloudinary.com/mcaprojectnitjsr/image/upload/v1665258554/pensive/p1_yvmi4q.png "login")
 ![signup](https://res.cloudinary.com/mcaprojectnitjsr/image/upload/v1665258555/pensive/p3_jwir64.png "signup")
-![GPSSummary](https://res.cloudinary.com/mcaprojectnitjsr/image/upload/v1665258554/pensive/p2_oolrs9.png "GPSSummary")
+![GPSSummary](https://res.cloudinary.com/mcaprojectnitjsr/image/upload/v1665287580/pensive/p3_pkjbat.png "GPSSummary")
 
 # Technologies used
 1. Frontend (FE): React.JS
