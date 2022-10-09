@@ -22,13 +22,7 @@ export class AppService {
         return this.userRepository.findOneBy(condition);
     }
     async getGpsSummary():Promise<GPSSummaries[]>{
-        const gpsData= await this.gpsSummaryRepository
-        .createQueryBuilder("gpsSummary")
-        .select("DISTINCT")
-        .distinct()
-        .orderBy('gpsSummary.timeStamp','DESC')
-        .getMany();
-
+        const gpsData= await this.gpsSummaryRepository.find()
         return gpsData;
     }
 }

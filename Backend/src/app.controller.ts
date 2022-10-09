@@ -1,17 +1,6 @@
 /* eslint-disable prettier/prettier */
-// import { Controller, Get } from '@nestjs/common';
-// import { AppService } from './app.service';
 
-// @Controller()
-// export class AppController {
-//   constructor(private readonly appService: AppService) {}
-
-//   @Get()
-//   getHello(): string {
-//     return this.appService.getHello();
-//   }
-// }
-import {BadRequestException, Body, Controller, Get, Post, Req, Res, UnauthorizedException} from '@nestjs/common';
+import {BadRequestException, Body, Controller, Get, Param, Post, Req, Res, UnauthorizedException} from '@nestjs/common';
 import {AppService} from './app.service';
 import * as bcrypt from 'bcrypt';
 import {JwtService} from "@nestjs/jwt";
@@ -43,8 +32,6 @@ export class AppController {
             password: hashedPassword
         });
 
-        //delete user.password;
-
         return user;
     }
 
@@ -73,30 +60,11 @@ export class AppController {
         };
     }
 
-    @Get('user')
-    async user(@Req() request: Request) {
-        try {
-            const cookie = request.cookies['jwt'];
-
-            const data = await this.jwtService.verifyAsync(cookie);
-
-            if (!data) {
-                throw new UnauthorizedException();
-            }
-
-            const user = await this.appService.findOne({id: data['id']});
-
-            const {password, ...result} = user || {};
-
-            return result;
-        } catch (e) {
-            throw new UnauthorizedException();
-        }
-    }
-
+   
     @Get('user')
     async getGpsData() {
        const GPSSummaries= await this.appService.getGpsSummary();
+       return GPSSummaries;
     }
 
     @Post('logout')
