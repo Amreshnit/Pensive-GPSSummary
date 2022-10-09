@@ -8,8 +8,7 @@ Login page → GPS Summary page
 # Import the sample GPS data collected at intervals of 5 min to RDBMS store (SQL).
 # All timestamps are in the same time zone.
 
-# All timestamps are in the same time zone.
-DeviceId Device Type Timestamp location
+<!-- DeviceId Device Type Timestamp location
 D-1567 Aircraft 31-08-2022 10:05 L1
 D-1567 Aircraft 31-08-2022 10:10 L1
 D-1567 Aircraft 31-08-2022 10:15 L1
@@ -26,7 +25,7 @@ D-1569 Asset 31-08-2022 10:25 L1
 D-1569 Asset 31-08-2022 10:30 L1
 D-1569 Asset 31-08-2022 10:35 L2
 D-1570 Personal 31-08-2022 10:35 L5
-D-1571 Asset 31-08-2022 10:35 L6
+D-1571 Asset 31-08-2022 10:35 L6 -->
 
 ## Scenarios:
 # Login page
